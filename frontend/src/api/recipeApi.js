@@ -6,7 +6,7 @@
 
 import axios from "axios";
 
-const BASE_URL = "https://recipe-finder-backend-epwh.onrender.com";
+const BASE_URL = "https://recipe-finder-backend-epwh.onrender.com/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
